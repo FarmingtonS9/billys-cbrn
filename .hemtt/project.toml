@@ -1,3 +1,21 @@
 name = "billys-cbrn"
-prefix = "b-cbrn"
+prefix = "b_cbrn"
 mainprefix = "z"
+
+[hemtt.launch.default]
+executable = "arma3_x64"
+workshop = [
+  "450814997", # CBA_A3
+  #"463939057"  # ACE3
+]
+parameters = [
+  "-skipIntro",
+  "-noSplash",
+  "-showScriptErrors",
+  "-debug",
+]
+
+[version]
+major = 0
+minor = 0
+patch = 1

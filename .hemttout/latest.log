@@ -1,0 +1,155 @@
+2026-04-21T12:52:14.320861Z TRACE ThreadId(01) version: 1.18.3
+2026-04-21T12:52:14.320919Z TRACE ThreadId(01) platform: windows
+2026-04-21T12:52:14.320931Z TRACE ThreadId(01) args: [
+    "C:\\Users\\Steve Frampton\\AppData\\Local\\Microsoft\\WinGet\\Links\\hemtt.exe",
+    "launch",
+]
+2026-04-21T12:52:14.322322Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\Steve Frampton\\AppData\\Roaming\\hemtt"
+2026-04-21T12:52:14.327856Z TRACE ThreadId(01) launch config: LaunchOptions { workshop: ["450814997"], dlc: [], presets: [], optionals: [], mission: None, dev_mission: None, parameters: ["-debug", "-noSplash", "-showScriptErrors", "-skipIntro"], executable: Some("arma3_x64"), binarize: None, file_patching: None, instances: None, rapify: None }
+2026-04-21T12:52:14.333862Z DEBUG ThreadId(01) Arma 3 found at: D:\SteamLibrary\steamapps\common\Arma 3
+2026-04-21T12:52:14.334244Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\STEVEF~1\\AppData\\Local\\Temp\\hemtt\\Code Projects_SQF - (ArmA 3)_billys-cbrn"
+2026-04-21T12:52:14.334254Z TRACE ThreadId(01) using project folder: "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn"
+2026-04-21T12:52:14.334324Z TRACE ThreadId(01) using out folder: "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout"
+2026-04-21T12:52:14.334525Z TRACE ThreadId(01) using build folder: "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev"
+2026-04-21T12:52:14.337398Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\STEVEF~1\\AppData\\Local\\Temp\\hemtt\\Code Projects_SQF - (ArmA 3)_billys-cbrn\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn" } } } } } }] } } }
+2026-04-21T12:52:14.338112Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/core/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\STEVEF~1\\AppData\\Local\\Temp\\hemtt\\Code Projects_SQF - (ArmA 3)_billys-cbrn\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn" } } } } } }] } } }
+2026-04-21T12:52:14.338362Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/core/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\STEVEF~1\\AppData\\Local\\Temp\\hemtt\\Code Projects_SQF - (ArmA 3)_billys-cbrn\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn" } } } } } }] } } }
+2026-04-21T12:52:14.339010Z TRACE ThreadId(01) reading version from project.toml
+2026-04-21T12:52:14.344479Z  INFO ThreadId(01) Config loaded for billys-cbrn 0.0.1-3816cfe0
+2026-04-21T12:52:14.344560Z TRACE ThreadId(01) Scanning D:\Code Projects\SQF - (ArmA 3)\billys-cbrn\addons for addons
+2026-04-21T12:52:14.345191Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\Steve Frampton\\AppData\\Roaming\\hemtt"
+2026-04-21T12:52:14.345950Z  INFO ThreadId(01) Creating `dev` version
+2026-04-21T12:52:14.345967Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2026-04-21T12:52:14.345971Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2026-04-21T12:52:14.345974Z TRACE ThreadId(01) phase: init (Final New Line Check) (start)
+2026-04-21T12:52:14.345977Z TRACE ThreadId(01) phase: init (Final New Line Check) (done)
+2026-04-21T12:52:14.345980Z TRACE ThreadId(01) phase: init (git) (start)
+2026-04-21T12:52:14.346024Z TRACE ThreadId(01) phase: init (git) (done)
+2026-04-21T12:52:14.346033Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2026-04-21T12:52:14.346105Z TRACE ThreadId(01) no hooks folder
+2026-04-21T12:52:14.346110Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2026-04-21T12:52:14.346113Z TRACE ThreadId(01) phase: init (pboprefix) (start)
+2026-04-21T12:52:14.346116Z TRACE ThreadId(01) phase: init (pboprefix) (done)
+2026-04-21T12:52:14.346119Z TRACE ThreadId(01) phase: init (tex_headers) (start)
+2026-04-21T12:52:14.346121Z TRACE ThreadId(01) phase: init (tex_headers) (done)
+2026-04-21T12:52:14.346124Z TRACE ThreadId(01) phase: init (Files) (start)
+2026-04-21T12:52:14.346127Z TRACE ThreadId(01) phase: init (Files) (done)
+2026-04-21T12:52:14.346130Z TRACE ThreadId(01) phase: init (FilePatching) (start)
+2026-04-21T12:52:14.346132Z TRACE ThreadId(01) phase: init (FilePatching) (done)
+2026-04-21T12:52:14.346135Z TRACE ThreadId(01) phase: init (summary) (start)
+2026-04-21T12:52:14.346138Z TRACE ThreadId(01) phase: init (summary) (done)
+2026-04-21T12:52:14.346140Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2026-04-21T12:52:14.346143Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2026-04-21T12:52:14.346146Z TRACE ThreadId(01) phase: init (SQF) (start)
+2026-04-21T12:52:14.714673Z TRACE ThreadId(01) phase: init (SQF) (done)
+2026-04-21T12:52:14.714687Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2026-04-21T12:52:14.714690Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2026-04-21T12:52:14.714694Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2026-04-21T12:52:14.715232Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2026-04-21T12:52:14.715239Z TRACE ThreadId(01) phase: check (Final New Line Check) (start)
+2026-04-21T12:52:14.715717Z TRACE ThreadId(01) phase: check (Final New Line Check) (done)
+2026-04-21T12:52:14.715723Z TRACE ThreadId(01) phase: check (git) (start)
+2026-04-21T12:52:14.718582Z TRACE ThreadId(01) phase: check (git) (done)
+2026-04-21T12:52:14.718589Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2026-04-21T12:52:14.718593Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2026-04-21T12:52:14.718596Z TRACE ThreadId(01) phase: check (pboprefix) (start)
+2026-04-21T12:52:14.718603Z TRACE ThreadId(01) Checking prefixes against expected project path: z\b_cbrn\
+2026-04-21T12:52:14.719100Z TRACE ThreadId(01) phase: check (pboprefix) (done)
+2026-04-21T12:52:14.719122Z TRACE ThreadId(01) phase: check (tex_headers) (start)
+2026-04-21T12:52:14.719127Z TRACE ThreadId(01) phase: check (tex_headers) (done)
+2026-04-21T12:52:14.719131Z TRACE ThreadId(01) phase: check (Files) (start)
+2026-04-21T12:52:14.719134Z TRACE ThreadId(01) phase: check (Files) (done)
+2026-04-21T12:52:14.719138Z TRACE ThreadId(01) phase: check (FilePatching) (start)
+2026-04-21T12:52:14.719141Z TRACE ThreadId(01) phase: check (FilePatching) (done)
+2026-04-21T12:52:14.719145Z TRACE ThreadId(01) phase: check (summary) (start)
+2026-04-21T12:52:14.719148Z TRACE ThreadId(01) phase: check (summary) (done)
+2026-04-21T12:52:14.719152Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2026-04-21T12:52:14.719219Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2026-04-21T12:52:14.719224Z TRACE ThreadId(01) phase: check (SQF) (start)
+2026-04-21T12:52:14.719303Z TRACE ThreadId(01) phase: check (SQF) (done)
+2026-04-21T12:52:14.719313Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2026-04-21T12:52:14.719347Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2026-04-21T12:52:14.719351Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2026-04-21T12:52:14.719354Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2026-04-21T12:52:14.719357Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (start)
+2026-04-21T12:52:14.719359Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (done)
+2026-04-21T12:52:14.719362Z TRACE ThreadId(01) phase: pre_build (git) (start)
+2026-04-21T12:52:14.719365Z TRACE ThreadId(01) phase: pre_build (git) (done)
+2026-04-21T12:52:14.719367Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2026-04-21T12:52:14.719373Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2026-04-21T12:52:14.719378Z TRACE ThreadId(01) phase: pre_build (pboprefix) (start)
+2026-04-21T12:52:14.719380Z TRACE ThreadId(01) phase: pre_build (pboprefix) (done)
+2026-04-21T12:52:14.719383Z TRACE ThreadId(01) phase: pre_build (tex_headers) (start)
+2026-04-21T12:52:14.720834Z  INFO ThreadId(01) Generated 0 texture headers
+2026-04-21T12:52:14.720849Z TRACE ThreadId(01) phase: pre_build (tex_headers) (done)
+2026-04-21T12:52:14.720853Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2026-04-21T12:52:14.720856Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2026-04-21T12:52:14.720858Z TRACE ThreadId(01) phase: pre_build (FilePatching) (start)
+2026-04-21T12:52:14.721098Z TRACE ThreadId(03) junction link "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev\\addons\\core" => "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\addons\\core"
+2026-04-21T12:52:14.721098Z TRACE ThreadId(04) junction link "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev\\addons\\main" => "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\addons\\main"
+2026-04-21T12:52:14.738919Z TRACE ThreadId(01) phase: pre_build (FilePatching) (done)
+2026-04-21T12:52:14.738934Z TRACE ThreadId(01) phase: pre_build (summary) (start)
+2026-04-21T12:52:14.738939Z TRACE ThreadId(01) phase: pre_build (summary) (done)
+2026-04-21T12:52:14.738942Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2026-04-21T12:52:14.744137Z  INFO ThreadId(01) Rapified 1 addon configs
+2026-04-21T12:52:14.744167Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2026-04-21T12:52:14.744172Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2026-04-21T12:52:14.746698Z TRACE ThreadId(01) sqf compiling /addons/core/XEH_postInit.sqf
+2026-04-21T12:52:14.748335Z  INFO ThreadId(01) Compiled 1 sqf files
+2026-04-21T12:52:14.748363Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2026-04-21T12:52:14.748368Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2026-04-21T12:52:14.750526Z  INFO ThreadId(01) Checked 0 stringtables
+2026-04-21T12:52:14.750540Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2026-04-21T12:52:14.750546Z TRACE ThreadId(01) phase: build (start)
+2026-04-21T12:52:14.752434Z DEBUG ThreadId(01) "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev\\addons" already exists
+2026-04-21T12:52:14.752444Z DEBUG ThreadId(01) building "addons/core" => "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev\\addons\\b_cbrn_core.pbo"
+2026-04-21T12:52:14.753435Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2026-04-21T12:52:14.753565Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2026-04-21T12:52:14.754200Z TRACE ThreadId(01) adding file "config.bin"
+2026-04-21T12:52:14.754674Z DEBUG ThreadId(01) "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev\\addons" already exists
+2026-04-21T12:52:14.754684Z DEBUG ThreadId(01) building "addons/main" => "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev\\addons\\b_cbrn_main.pbo"
+2026-04-21T12:52:14.756042Z  INFO ThreadId(01) Built 2 PBOs
+2026-04-21T12:52:14.756055Z TRACE ThreadId(01) phase: build (done)
+2026-04-21T12:52:14.756059Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2026-04-21T12:52:14.756063Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2026-04-21T12:52:14.756066Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (start)
+2026-04-21T12:52:14.756068Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (done)
+2026-04-21T12:52:14.756071Z TRACE ThreadId(01) phase: post_build (git) (start)
+2026-04-21T12:52:14.756074Z TRACE ThreadId(01) phase: post_build (git) (done)
+2026-04-21T12:52:14.756077Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2026-04-21T12:52:14.756080Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2026-04-21T12:52:14.756083Z TRACE ThreadId(01) phase: post_build (pboprefix) (start)
+2026-04-21T12:52:14.756085Z TRACE ThreadId(01) phase: post_build (pboprefix) (done)
+2026-04-21T12:52:14.756090Z TRACE ThreadId(01) phase: post_build (tex_headers) (start)
+2026-04-21T12:52:14.756095Z TRACE ThreadId(01) phase: post_build (tex_headers) (done)
+2026-04-21T12:52:14.756098Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2026-04-21T12:52:14.786615Z DEBUG ThreadId(01) copying "/mod.cpp" => "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev\\mod.cpp"
+2026-04-21T12:52:14.787426Z  INFO ThreadId(01) Copied 1 files
+2026-04-21T12:52:14.787441Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2026-04-21T12:52:14.787445Z TRACE ThreadId(01) phase: post_build (FilePatching) (start)
+2026-04-21T12:52:14.787637Z TRACE ThreadId(01) removing existing symlink at D:\SteamLibrary\steamapps\common\Arma 3\z\b_cbrn
+2026-04-21T12:52:14.787819Z TRACE ThreadId(01) junction link "D:\\SteamLibrary\\steamapps\\common\\Arma 3\\z\\b_cbrn" => "D:\\Code Projects\\SQF - (ArmA 3)\\billys-cbrn\\.hemttout\\dev"
+2026-04-21T12:52:14.799648Z  INFO ThreadId(01) Symlink created at D:\SteamLibrary\steamapps\common\Arma 3\z\b_cbrn
+2026-04-21T12:52:14.799665Z TRACE ThreadId(01) phase: post_build (FilePatching) (done)
+2026-04-21T12:52:14.799670Z TRACE ThreadId(01) phase: post_build (summary) (start)
+2026-04-21T12:52:14.800688Z TRACE ThreadId(01) phase: post_build (summary) (done)
+2026-04-21T12:52:14.800696Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2026-04-21T12:52:14.800700Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2026-04-21T12:52:14.800703Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2026-04-21T12:52:14.800708Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2026-04-21T12:52:14.800711Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2026-04-21T12:52:14.800715Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2026-04-21T12:52:14.804673Z  INFO ThreadId(01) Launching "D:\\SteamLibrary\\steamapps\\common\\Arma 3" with:
+  -mod="D:\Code Projects\SQF - (ArmA 3)\billys-cbrn\.hemttout/dev"
+  -mod="D:\SteamLibrary\steamapps\workshop\content\107410\450814997"
+  -skipIntro
+  -noSplash
+  -showScriptErrors
+  -debug
+  -debug
+  -noSplash
+  -showScriptErrors
+  -skipIntro
+  -filePatching
+2026-04-21T12:52:14.807718Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2026-04-21T12:52:14.807841Z TRACE ThreadId(01) wrote 0 ci annotations to .hemttout/ci_annotations.txt
