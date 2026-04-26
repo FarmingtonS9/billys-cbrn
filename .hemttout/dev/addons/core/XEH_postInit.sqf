@@ -5,5 +5,5 @@
 
     hint "CBRN Core Loaded";
 
-    [player] spawn fn_exposureLoop;
-};
+    [player] spawn ba3cbrn_fnc_exposureLoop;
+}

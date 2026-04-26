@@ -12,13 +12,15 @@ class CfgPatches {
 class CfgFunctions {
     class ba3cbrn {
         class core {
-            file = "\z\b_cbrn\addons\core\functions";
+            file = "\z\ba3cbrn\addons\core\functions";
+
+            class exposureLoop {};
         };
     };
 };
 
 class Extended_PostInit_EventHandlers {
     class ba3cbrn_core {
-        init = "call compile preprocessFileLineNumbers '\z\b_cbrn\addons\core\XEH_postInit.sqf'";
+        init = "call compile preprocessFileLineNumbers '\z\ba3cbrn\addons\core\XEH_postInit.sqf'";
     };
 };
